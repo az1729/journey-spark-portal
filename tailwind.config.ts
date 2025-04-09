@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				bus: {
+					primary: '#1a365d',
+					secondary: '#4ade80',
+					accent: '#3b82f6',
+					available: '#4ade80',
+					booked: '#ef4444',
+					selected: '#3b82f6',
 				}
 			},
 			borderRadius: {
@@ -94,3 +103,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
